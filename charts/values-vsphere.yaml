@@ -15,7 +15,7 @@ nodepools:
   taints: {}
 
   # specify nodepool size
-  quantity: 1
+  quantity: 3
 
   # Pause node pool
   paused: false
@@ -60,7 +60,7 @@ nodepools:
   # machineDeploymentAnnotations: {}
 
   # specify nodepool name
-  #name: "vsphere-nodepool-1"
+  name: "vsphere-nodepool-1"
 
   # vSphere vm configuration parameters (used for guestinfo)
   # cfgparam: []
